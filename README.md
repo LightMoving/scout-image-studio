@@ -1,3 +1,4 @@
+![Scout Image Studio banner](assets/banner-1544x500.png)
 # Scout Image Studio
 
 ![Version](https://img.shields.io/badge/version-2.2.7-blue)
@@ -8,7 +9,6 @@
 
 Scout Image Studio safely renames physical WordPress image files while keeping generated image sizes, attachment records, URLs, post content, and compatible metadata references synchronized.
 
-![Scout Image Studio banner](assets/banner-1544x500.png)
 
 ## Version 2.2.7
 
