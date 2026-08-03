@@ -1,6 +1,6 @@
 # Scout Image Studio
 
-![Version](https://img.shields.io/badge/version-2.2.7)
+![Version](https://img.shields.io/badge/version-2.2.7-blue)
 ![WordPress](https://img.shields.io/badge/WordPress-7.0.2-blue)
 ![License](https://img.shields.io/badge/license-GPL%20v2-green)
 
