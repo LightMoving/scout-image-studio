@@ -1,7 +1,7 @@
 ![Scout Image Studio banner](assets/banner-1544x500.png)
 # Scout Image Studio
 
-![Version](https://img.shields.io/badge/version-2.2.7-blue)
+![Version](https://img.shields.io/badge/version-2.2.9-blue)
 ![WordPress](https://img.shields.io/badge/WordPress-7.0.2-blue)
 ![License](https://img.shields.io/badge/license-GPL%20v2-green)
 
