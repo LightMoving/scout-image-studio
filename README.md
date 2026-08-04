@@ -83,6 +83,13 @@ GPL-2.0-or-later
 
 ## 📜 Changelog
 
+### 2.2.9
+
+- Aligned the API key and model controls in AI & SEO Studio.
+- Improved responsive behavior across laptop, tablet, and mobile widths.
+- Constrained and balanced AI Studio fields for improved readability.
+- Removed the duplicate filename line beneath each New filename field.
+
 ## 2.2.7
 - More resilient OpenAI and Gemini response parsing for AI filenames.
 - Preserves the user's exact scroll position after a rename operation.
