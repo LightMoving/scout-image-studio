@@ -83,6 +83,14 @@ GPL-2.0-or-later
 
 ## 📜 Changelog
 
+### 2.10.0
+- Adds a dedicated laptop and tablet stage between desktop and mobile layouts.
+- Moves the history panel below the rename workspace earlier, giving the table more room.
+- Keeps every thumbnail at its existing 64 × 64 size.
+- Current Filename, New Filename, and Source resize more fluidly.
+- More visibility in the middle-width range where the layout previously felt fixed.
+- Mobile card layout.
+
 ### 2.2.9
 
 - Aligned the API key and model controls in AI & SEO Studio.
