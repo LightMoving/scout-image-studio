@@ -210,12 +210,10 @@ Before running large operations, create a current database and uploads backup. T
 - Uses keywords naturally and avoids keyword stuffing.
 - Saves a reusable SEO profile in Scout AI Studio.
 
-## License
+## ⚖ License
 
 GPL-2.0-or-later
 
 
-## ⚖ License
 
-GPL v2 or later
 
