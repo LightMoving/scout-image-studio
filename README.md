@@ -9,25 +9,28 @@
 
 Scout Image Studio safely renames physical WordPress image files while keeping generated image sizes, attachment records, URLs, post content, and compatible metadata references synchronized.
 
+## Release
 
-## Version 2.2.7
+- **Version:** 2.2.11
+- **Author:** Debo Grim
+- **WordPress.org contributor:** angelsrock
+- **License:** GPL-2.0-or-later
 
-Version 2.2.7 completes the WordPress 6.0 compatibility pass by replacing the WordPress 6.1-only cache-group flush with targeted post-cache invalidation after metadata URL updates.
+## Features
 
-### Included today
-
-- Physical image-file renaming
-- Generated thumbnail and image-size renaming
-- WordPress attachment metadata updates
-- URL and compatible content-reference updates
-- Media Library title synchronization
-- Sequential bulk naming with configurable starting number
+- Safely rename physical image files
+- Rename generated thumbnails and intermediate image sizes
+- Synchronize WordPress attachment metadata and Media Library titles
+- Update image URLs and compatible content references
+- Sequential bulk naming with configurable starting numbers
 - Number formats: `1`, `01`, `001`, and `0001`
-- Live sequential filename preview
 - AI filename suggestions using OpenAI or Google Gemini
-- Search, pagination preservation, operation history, undo, and clear history
+- SEO-guided AI naming with preferred keyword and website context
+- Review and edit all suggested names before applying them
+- Generate another AI idea or clear suggestions without changing files
 - Duplicate filename protection
-- Up to 50 images per bulk page and 20 images per AI request
+- Rename history, undo, and clear history
+- Search, pagination, page-position preservation, and responsive layouts
 
 ## Sequential bulk naming
 
@@ -36,9 +39,9 @@ Version 2.2.7 completes the WordPress 6.0 compatibility pass by replacing the Wo
 3. Choose the starting number and number format.
 4. Review the live preview.
 5. Click **Apply Numbered Names** to fill the filename fields.
-6. Review the proposed names and click **Rename Selected Images**.
+6. Review the names and click **Rename Selected Images**.
 
-Example output:
+Example:
 
 ```text
 scout-trails-01.jpg
@@ -46,15 +49,38 @@ scout-trails-02.jpg
 scout-trails-03.jpg
 ```
 
-## AI naming
+## AI and SEO naming
 
-Scout Image Studio supports OpenAI and Google Gemini vision models. Images are sent to the configured provider only when **Select Name with AI** is clicked. AI suggestions remain editable and are not applied until the user confirms the rename operation.
+Scout Image Studio supports optional AI-assisted filename generation through OpenAI and Google Gemini. Images are sent to the selected provider only when an authorized administrator explicitly clicks **Select Name with AI** or **Generate Another Idea**.
 
-API keys are stored in the WordPress options table. Site owners should use a dedicated key with appropriate usage limits and follow their provider's security guidance.
+AI suggestions remain editable and are never applied until **Rename Selected Images** is clicked. The plugin can use a preferred SEO phrase as guidance while instructing the provider to keep filenames natural and avoid keyword stuffing.
 
-## Safety
+## External services and privacy
 
-Before running large operations, create a current database and uploads backup. Test the plugin on a small group of images first, especially on sites using custom page builders or plugins that store media URLs in proprietary formats.
+Scout Image Studio supports optional AI-assisted filename generation through OpenAI and Google Gemini. Manual and sequential renaming work without either service.
+
+No image or media content is sent automatically. A selected image is transmitted only after an authorized administrator explicitly chooses **Select Name with AI** or **Generate Another Idea**.
+
+For AI naming, Scout Image Studio sends the selected image itself (base64-encoded), filename-generation instructions, and contextual information used to guide the suggestion. Context can include the attachment title, alt text, parent-post title, preferred SEO phrase, website context, and configured maximum filename length. Requests go directly from the WordPress site to the provider selected by the administrator; Scout does not proxy them through a Scout-operated service.
+
+**OpenAI** is used when OpenAI is configured as the provider. The plugin may contact the OpenAI model endpoint when testing the connection and the Responses API when generating a filename suggestion.
+
+- OpenAI Services Agreement: https://openai.com/policies/services-agreement/
+- OpenAI Privacy Policy: https://openai.com/policies/privacy-policy/
+
+**Google Gemini** is used when Gemini is configured as the provider. The plugin may contact the Gemini model endpoint when testing the connection and the Gemini generateContent endpoint when generating a filename suggestion.
+
+- Gemini API Additional Terms of Service: https://ai.google.dev/gemini-api/terms
+- Google Privacy Policy: https://policies.google.com/privacy
+
+API keys remain stored in the site's WordPress options table and are sent only to the selected provider as required to authenticate administrator-requested operations. Site owners are responsible for the provider's applicable account requirements, terms, privacy practices, billing, quotas, and usage policies.
+
+## Source code and development
+
+The complete public source repository is available at:
+https://github.com/LightMoving/scout-image-studio
+
+The PHP, CSS, and JavaScript distributed with Scout Image Studio are human-readable source files. This release does not require a JavaScript or CSS compilation/minification build step to reproduce the distributed assets.
 
 ## Installation
 
@@ -62,34 +88,59 @@ Before running large operations, create a current database and uploads backup. T
 2. In WordPress, open **Plugins → Add New → Upload Plugin**.
 3. Upload and activate Scout Image Studio.
 4. Open **Media → Scout Image Studio**.
+5. Create a current database and uploads backup before large rename operations.
 
 ## Requirements
 
 - WordPress 6.0 or newer
 - PHP 7.4 or newer
-- Permission to rename files in the WordPress uploads directory
-- An OpenAI or Gemini API key only when AI naming is used
+- Permission to modify files in the WordPress uploads directory
+- An OpenAI or Google Gemini API key only when AI naming is used
 
-## Roadmap
+## Frequently asked questions
 
-Planned workspaces include richer metadata editing, alt-text and caption generation, asset health, URL verification, image optimization, duplicate detection, and media SEO insights.
+### Does Scout Image Studio rename the physical file?
 
-## License
+Yes. It renames the physical image and its generated image sizes, then updates the associated WordPress metadata.
 
-GPL-2.0-or-later
+### Does it update image URLs and references?
 
+Yes. Scout updates the attachment data and compatible references it can identify. A current backup is still strongly recommended, especially on sites using custom page builders or proprietary storage formats.
 
----
+### Can a rename be undone?
 
-## 📜 Changelog
+Yes. Recent rename operations are recorded in the history panel and can be undone.
+
+### Is AI required?
+
+No. Manual naming and sequential bulk naming work without an AI provider or API key.
+
+### When are images sent to an AI provider?
+
+Only after an authorized administrator explicitly requests AI naming.
+
+## Safety
+
+Before running large operations, create a current database and uploads backup. Test the plugin on a small group of images first, especially on sites using custom page builders or plugins that store media URLs in proprietary formats.
+
+## Changelog
+
+### 2.2.11
+
+- Added complete OpenAI and Google Gemini external-service disclosures, including what data is sent and when.
+- Added provider terms and privacy links.
+- Added the public GitHub source repository and development/build information.
+- Replaced compressed JavaScript formatting with human-readable distributed source.
+- Removed WordPress.org directory-only banner artwork from the distributable plugin package.
+- Added an in-product privacy notice to AI & SEO Studio.
+- Preserved all existing AI provider, renaming, and image-processing behavior.
 
 ### 2.2.10
-- Adds a dedicated laptop and tablet stage between desktop and mobile layouts.
-- Moves the history panel below the rename workspace earlier, giving the table more room.
-- Keeps every thumbnail at its existing 64 × 64 size.
-- Current Filename, New Filename, and Source resize more fluidly.
-- More visibility in the middle-width range where the layout previously felt fixed.
-- Mobile card layout.
+
+- Added a dedicated laptop and tablet layout between desktop and mobile widths.
+- Moves the history panel below the rename workspace earlier to preserve table room.
+- Keeps thumbnail dimensions unchanged while allowing filename columns to resize fluidly.
+- Improved visibility of the Source and New filename columns at intermediate widths.
 
 ### 2.2.9
 
@@ -159,7 +210,10 @@ GPL-2.0-or-later
 - Uses keywords naturally and avoids keyword stuffing.
 - Saves a reusable SEO profile in Scout AI Studio.
 
----
+## License
+
+GPL-2.0-or-later
+
 
 ## ⚖ License
 
