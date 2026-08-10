@@ -1,8 +1,8 @@
 ![Scout Image Studio banner](assets/banner-1544x500.png)
 # Scout Image Studio
 
-![Version](https://img.shields.io/badge/version-2.2.9-blue)
-![WordPress](https://img.shields.io/badge/WordPress-7.0.2-blue)
+![Version](https://img.shields.io/badge/version-2.2.11-blue)
+![WordPress](https://img.shields.io/badge/WordPress-7.0.3-blue)
 ![License](https://img.shields.io/badge/license-GPL%20v2-green)
 
 **AI-powered Media, URL & Metadata Management for WordPress**
