@@ -4,7 +4,7 @@ Tags: media, images, rename, ai, seo
 Requires at least: 6.0
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.2.16
+Stable tag: 2.2.17
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -97,6 +97,10 @@ Only after an authorized administrator explicitly requests AI naming.
 
 
 
+
+
+= 2.2.17 =
+* Change: Responsiveness & Compatibility
 
 = 2.2.16 =
 * Updated Features

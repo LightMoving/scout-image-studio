@@ -1,7 +1,7 @@
 ![Scout Image Studio](assets/banner-1544x500.png)
 
 # Scout Image Studio
-![Version](https://img.shields.io/badge/version-2.2.16-blue)
+![Version](https://img.shields.io/badge/version-2.2.17-blue)
 ![WordPress](https://img.shields.io/badge/WordPress-7.0.2%2B-blue)
 ![License](https://img.shields.io/badge/license-GPL%20v2-green)
 
@@ -9,13 +9,6 @@
 **AI-powered Media, URL & Metadata Management for WordPress**
 
 Scout Image Studio safely renames physical WordPress image files while keeping generated image sizes, attachment records, URLs, post content, and compatible metadata references synchronized.
-
-## Release
-
-- **Version:2.2.15
-- **Author:** Debo Grim
-- **WordPress.org contributor:** angelsrock
-- **License:** GPL-2.0-or-later
 
 ## Features
 
@@ -126,6 +119,9 @@ Before running large operations, create a current database and uploads backup. T
 
 ## Changelog
 
+### 2.2.17
+
+Change: Responsiveness & Compatibility
 ### 2.2.16
 
 Publisher Payload: `0de15b9e82f784fa…`
@@ -161,7 +157,6 @@ Release packaged and verified with WordPress Plugin Publisher.
 - AI-generated filename suggestions remain reviewable before rename
 - Restored premium primary-action sizing
 
-
 ## 2.2.6 — AI Compatibility Engine
 
 - Extracts usable filenames from plain text, JSON, Markdown, quoted text, numbered lists, and explanatory sentences.
@@ -174,13 +169,11 @@ Release packaged and verified with WordPress Plugin Publisher.
 - Retries once when OpenAI reports an incomplete response caused by max output tokens.
 - Reports incomplete provider responses clearly without changing selected assets.
 
-
 ## 2.2.5 — Scout Image Studio
 
 - Renamed the product throughout WordPress, PHP, documentation, and plugin metadata to **Scout Image Studio**.
 - Renamed the plugin folder, bootstrap file, admin slugs, and text domain to `scout-image-studio`.
 - Preserved existing settings, AI configuration, rename history, and workflows.
-
 
 ## 2.2.4 — Friendly AI Refinement
 
@@ -189,7 +182,6 @@ Release packaged and verified with WordPress Plugin Publisher.
 - Uses the success message: **Scout AI has successfully created names for your selected images.**
 - Keeps the original AI action as a clear ready-state indicator until suggestions are cleared.
 
-
 ## 2.2.3 — Focused Quick Actions
 
 - Simplified Quick Actions to **Select Name with AI** and **Rename Selected Images**.
@@ -197,13 +189,11 @@ Release packaged and verified with WordPress Plugin Publisher.
 - Added a ready-state confirmation after AI suggestions are generated.
 - Increased horizontal padding on the primary rename action.
 
-
 ## 2.2.2 — Quick Actions Polish
 
 - Removed the redundant **Fill Suggested Names** button.
 - Added a focused **Quick Actions** workflow for AI naming, AI & SEO settings, and final renaming.
 - Matched **Rename Selected Images** to the size and styling of **Apply Numbered Names**.
-
 
 ## 2.2.1 — AI SEO Studio
 - Adds Preferred SEO Phrase guidance for AI filename and URL creation.

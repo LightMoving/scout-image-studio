@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Scout Image Studio
  * Description: AI-powered Media, URL & Metadata Management for WordPress with safe image renaming, AI filename generation, SEO guidance, URL synchronization, and undo history.
- * Version: 2.2.16
+ * Version: 2.2.17
  * Author: Debo Grim
  * Requires at least: 6.0
  * Tested up to: 7.1
@@ -16,7 +16,7 @@ if (!defined('ABSPATH')) {
 }
 
 final class Scout_Image_Studio {
-    const VERSION = '2.2.16';
+    const VERSION = '2.2.17';
     const HISTORY_OPTION = 'sins_rename_history';
     const NONCE_ACTION = 'sins_admin_action';
 
