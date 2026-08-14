@@ -132,9 +132,6 @@ Before running large operations, create a current database and uploads backup. T
 
 ### 2.2.15
 
-
-
-
 - Performance Upgrades
 
 ### 2.2.10
