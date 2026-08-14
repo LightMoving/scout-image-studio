@@ -1,9 +1,14 @@
-![Scout Image Studio banner](assets/banner-1544x500.png)
 # Scout Image Studio
 
-![Version](https://img.shields.io/badge/version-2.2.11-blue)
-![WordPress](https://img.shields.io/badge/WordPress-7.0.3-blue)
-![License](https://img.shields.io/badge/license-GPL%20v2-green)
+<!-- publisher:release:start -->
+**Current Version:** 2.2.15
+
+### 2.2.15
+
+Publisher Payload: `0db3b0e554b2057f…`
+
+Release packaged and verified with WordPress Plugin Publisher.
+<!-- publisher:release:end -->
 
 **AI-powered Media, URL & Metadata Management for WordPress**
 
@@ -11,7 +16,7 @@ Scout Image Studio safely renames physical WordPress image files while keeping g
 
 ## Release
 
-- **Version:** 2.2.11
+- **Version:2.2.15
 - **Author:** Debo Grim
 - **WordPress.org contributor:** angelsrock
 - **License:** GPL-2.0-or-later
@@ -92,7 +97,7 @@ The PHP, CSS, and JavaScript distributed with Scout Image Studio are human-reada
 
 ## Requirements
 
-- WordPress 6.0 or newer
+- WordPress 7.1 or newer
 - PHP 7.4 or newer
 - Permission to modify files in the WordPress uploads directory
 - An OpenAI or Google Gemini API key only when AI naming is used
@@ -125,15 +130,12 @@ Before running large operations, create a current database and uploads backup. T
 
 ## Changelog
 
-### 2.2.11
+### 2.2.15
 
-- Added complete OpenAI and Google Gemini external-service disclosures, including what data is sent and when.
-- Added provider terms and privacy links.
-- Added the public GitHub source repository and development/build information.
-- Replaced compressed JavaScript formatting with human-readable distributed source.
-- Removed WordPress.org directory-only banner artwork from the distributable plugin package.
-- Added an in-product privacy notice to AI & SEO Studio.
-- Preserved all existing AI provider, renaming, and image-processing behavior.
+
+
+
+- Performance Upgrades
 
 ### 2.2.10
 
@@ -210,10 +212,6 @@ Before running large operations, create a current database and uploads backup. T
 - Uses keywords naturally and avoids keyword stuffing.
 - Saves a reusable SEO profile in Scout AI Studio.
 
-## ⚖ License
+## License
 
 GPL-2.0-or-later
-
-
-
-

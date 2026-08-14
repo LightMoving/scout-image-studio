@@ -1,0 +1,530 @@
+# Copyright (C) 2026 Debo Grim
+# This file is distributed under the same license as the Scout Image Studio plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Scout Image Studio 2.2.12\n"
+"Report-Msgid-Bugs-To: https://github.com/LightMoving/scout-image-studio/issues\n"
+"POT-Creation-Date: 2026-08-13 22:42-0700\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: ChatGPT\n"
+"X-Domain: scout-image-studio\n"
+
+#: scout-image-studio.php:845
+msgid "%d image renamed"
+msgid_plural "%d images renamed"
+msgstr[0] ""
+msgstr[1] ""
+
+#: scout-image-studio.php:881
+msgid "%d image renamed successfully."
+msgid_plural "%d images renamed successfully."
+msgstr[0] ""
+msgstr[1] ""
+
+#: scout-image-studio.php:299
+msgid "%s asset"
+msgid_plural "%s assets"
+msgstr[0] ""
+msgstr[1] ""
+
+#: scout-image-studio.php:422
+msgid "Action needs attention"
+msgstr ""
+
+#: scout-image-studio.php:552
+msgid "Add an API key in the AI naming settings first."
+msgstr ""
+
+#: scout-image-studio.php:38
+msgid "AI & SEO Studio"
+msgstr ""
+
+#: scout-image-studio.php:326
+msgid "AI filename intelligence"
+msgstr ""
+
+#: scout-image-studio.php:89
+msgid "AI naming failed."
+msgstr ""
+
+#: scout-image-studio.php:542
+msgid "AI naming is limited to 20 images per request."
+msgstr ""
+
+#: scout-image-studio.php:489
+msgid "AI settings saved."
+msgstr ""
+
+#: scout-image-studio.php:88
+msgid "AI suggestions have been cleared. Your images have not been renamed."
+msgstr ""
+
+#: scout-image-studio.php:374
+msgid "AI-powered filename, URL and SEO guidance for WordPress assets"
+msgstr ""
+
+#: scout-image-studio.php:4
+msgid "AI-powered Media, URL & Metadata Management for WordPress"
+msgstr ""
+
+#: scout-image-studio.php:317
+msgid "Alt text"
+msgstr ""
+
+#: scout-image-studio.php:390
+msgid "API key"
+msgstr ""
+
+#: scout-image-studio.php:182
+msgid "Apply Numbered Names"
+msgstr ""
+
+#: scout-image-studio.php:308
+msgid "Asset pages"
+msgstr ""
+
+#: scout-image-studio.php:142
+msgid "Assets"
+msgstr ""
+
+#: scout-image-studio.php:422
+msgid "Assets Updated"
+msgstr ""
+
+#: scout-image-studio.php:394
+msgid "Back to Scout Image Studio"
+msgstr ""
+
+#: scout-image-studio.php:173
+msgid "Base name"
+msgstr ""
+
+#: scout-image-studio.php:1142
+msgid "Cannot restore %s because a file with that name already exists."
+msgstr ""
+
+#: scout-image-studio.php:403
+msgid "Choose a provider."
+msgstr ""
+
+#: scout-image-studio.php:206
+msgid "Choose assets, generate AI names, review them, then rename."
+msgstr ""
+
+#: scout-image-studio.php:168
+msgid "Choose images, enter one shared name, and Scout prepares a numbered series in displayed order."
+msgstr ""
+
+#: scout-image-studio.php:381
+msgid "Choose your AI provider"
+msgstr ""
+
+#: scout-image-studio.php:339
+msgid "Clear History"
+msgstr ""
+
+#: scout-image-studio.php:215
+msgid "Clear Suggestions"
+msgstr ""
+
+#: scout-image-studio.php:327
+msgid "Connect OpenAI or Google Gemini, then generate concise filenames for selected images. Every suggestion remains editable before you rename anything."
+msgstr ""
+
+#: scout-image-studio.php:531
+msgid "Connected to %1$s using %2$s."
+msgstr ""
+
+#: scout-image-studio.php:91
+msgid "Connection"
+msgstr ""
+
+#: scout-image-studio.php:91
+msgid "Connection successful."
+msgstr ""
+
+#: scout-image-studio.php:92
+msgid "Connection test failed."
+msgstr ""
+
+#: scout-image-studio.php:602
+msgid "Could not read the image."
+msgstr ""
+
+#: scout-image-studio.php:1146
+msgid "Could not restore %s."
+msgstr ""
+
+#: scout-image-studio.php:403
+msgid "Create and paste your API key."
+msgstr ""
+
+#: scout-image-studio.php:230
+msgid "Current filename"
+msgstr ""
+
+#: scout-image-studio.php:192
+msgid "Enter the word or phrase you want Scout to prefer. AI will blend it naturally into descriptive filenames and URLs when it fits the image."
+msgstr ""
+
+#: scout-image-studio.php:386
+msgid "Excellent image understanding and concise filename generation."
+msgstr ""
+
+#: scout-image-studio.php:387
+msgid "Fast multimodal analysis with strong visual recognition."
+msgstr ""
+
+#: scout-image-studio.php:214
+msgid "Generate Another Idea"
+msgstr ""
+
+#: scout-image-studio.php:400
+msgid "Get an API key"
+msgstr ""
+
+#: scout-image-studio.php:402
+msgid "Google Gemini API Keys"
+msgstr ""
+
+#: scout-image-studio.php:315
+msgid "How names are suggested"
+msgstr ""
+
+#: scout-image-studio.php:3
+msgid "Image"
+msgstr ""
+
+#: scout-image-studio.php:593
+msgid "Image file not found."
+msgstr ""
+
+#: scout-image-studio.php:3
+msgid "Image Studio"
+msgstr ""
+
+#: scout-image-studio.php:185
+msgid "Live preview"
+msgstr ""
+
+#: scout-image-studio.php:139
+msgid "Manage WordPress assets with confidence. Scout safely renames physical files, updates generated sizes, attachment metadata, URLs, post content, and compatible references while preserving a complete undo history."
+msgstr ""
+
+#: scout-image-studio.php:393
+msgid "Maximum filename length"
+msgstr ""
+
+#: scout-image-studio.php:198
+msgid "Maximum length"
+msgstr ""
+
+#: scout-image-studio.php:318
+msgid "Media title"
+msgstr ""
+
+#: scout-image-studio.php:427
+msgid "Metadata refreshed"
+msgstr ""
+
+#: scout-image-studio.php:391
+msgid "Model"
+msgstr ""
+
+#: scout-image-studio.php:322
+msgid "Names are converted to lowercase, spaces become hyphens, and unsafe characters are removed."
+msgstr ""
+
+#: scout-image-studio.php:231
+msgid "New filename"
+msgstr ""
+
+#: scout-image-studio.php:291
+msgid "Next →"
+msgstr ""
+
+#: scout-image-studio.php:272
+msgid "No images found."
+msgstr ""
+
+#: scout-image-studio.php:344
+msgid "No rename operations yet."
+msgstr ""
+
+#: scout-image-studio.php:179
+msgid "Number format"
+msgstr ""
+
+#: scout-image-studio.php:200
+msgid "Open AI & SEO settings"
+msgstr ""
+
+#: scout-image-studio.php:328
+msgid "Open AI Studio"
+msgstr ""
+
+#: scout-image-studio.php:401
+msgid "OpenAI API Keys"
+msgstr ""
+
+#: scout-image-studio.php:197
+msgid "Optional website context"
+msgstr ""
+
+#: scout-image-studio.php:305
+msgid "Page %1$s of %2$s"
+msgstr ""
+
+#: scout-image-studio.php:319
+msgid "Parent post or page title"
+msgstr ""
+
+#: scout-image-studio.php:447
+msgid "Parent title"
+msgstr ""
+
+#: scout-image-studio.php:390
+msgid "Paste your API key"
+msgstr ""
+
+#: scout-image-studio.php:193
+msgid "Preferred mode"
+msgstr ""
+
+#: scout-image-studio.php:393
+msgid "Preferred SEO guidance"
+msgstr ""
+
+#: scout-image-studio.php:196
+msgid "Preferred SEO phrase"
+msgstr ""
+
+#: scout-image-studio.php:170
+msgid "Preview before applying"
+msgstr ""
+
+#: scout-image-studio.php:395
+msgid "Privacy note: AI naming is optional. When you explicitly request an AI suggestion, the selected image, filename-generation instructions, and any SEO phrase, website context, attachment title, alt text, or parent title used as context are sent directly to your selected provider (OpenAI or Google Gemini). No image is sent merely by opening this page or testing a connection."
+msgstr ""
+
+#: scout-image-studio.php:203
+msgid "Quick Actions"
+msgstr ""
+
+#: scout-image-studio.php:332
+msgid "Recent rename history"
+msgstr ""
+
+#: scout-image-studio.php:427
+msgid "References updated"
+msgstr ""
+
+#: scout-image-studio.php:1101
+msgid "Rename history cleared. No image files were changed."
+msgstr ""
+
+#: scout-image-studio.php:1125
+msgid "Rename operation undone successfully."
+msgstr ""
+
+#: scout-image-studio.php:217
+msgid "Rename Selected Images"
+msgstr ""
+
+#: scout-image-studio.php:217
+msgid "Renaming Assets…"
+msgstr ""
+
+#: scout-image-studio.php:403
+msgid "Return to Assets, select images, and choose Select Name with AI."
+msgstr ""
+
+#: scout-image-studio.php:394
+msgid "Save AI Settings"
+msgstr ""
+
+#: scout-image-studio.php:496
+msgid "Save an API key first."
+msgstr ""
+
+#: scout-image-studio.php:403
+msgid "Save settings and test the connection."
+msgstr ""
+
+#: scout-image-studio.php:390
+msgid "Saved — enter a new key only to replace it"
+msgstr ""
+
+#: scout-image-studio.php:53
+msgid "Scout AI & SEO Studio"
+msgstr ""
+
+#: scout-image-studio.php:87
+msgid "Scout AI has successfully created another set of names for your selected images."
+msgstr ""
+
+#: scout-image-studio.php:85
+msgid "Scout AI has successfully created names for your selected images."
+msgstr ""
+
+#: scout-image-studio.php:86
+msgid "Scout AI is creating another set of ideas…"
+msgstr ""
+
+#: scout-image-studio.php:84
+msgid "Scout AI is naming the selected images…"
+msgstr ""
+
+#: scout-image-studio.php:325
+msgid "Scout AI Studio"
+msgstr ""
+
+#: scout-image-studio.php:694
+msgid "Scout could not confidently extract a filename. Nothing was changed; retry or enter a name manually."
+msgstr ""
+
+#: scout-image-studio.php:585
+msgid "Scout created %1$d suggestion(s); %2$d image(s) need another try."
+msgstr ""
+
+#: scout-image-studio.php:3
+msgid "Scout Image Studio"
+msgstr ""
+
+#: scout-image-studio.php:141
+msgid "Scout Image Studio sections"
+msgstr ""
+
+#: scout-image-studio.php:393
+msgid "Scout treats this phrase as preferred guidance, not a requirement. It will use it naturally when relevant."
+msgstr ""
+
+#: scout-image-studio.php:152
+msgid "Search"
+msgstr ""
+
+#: scout-image-studio.php:152
+msgid "Search images"
+msgstr ""
+
+#: scout-image-studio.php:211
+msgid "Select all on this page"
+msgstr ""
+
+#: scout-image-studio.php:83
+msgid "Select at least one image first."
+msgstr ""
+
+#: scout-image-studio.php:539
+msgid "Select at least one image."
+msgstr ""
+
+#: scout-image-studio.php:213
+msgid "Select Name with AI"
+msgstr ""
+
+#: scout-image-studio.php:393
+msgid "SEO profile"
+msgstr ""
+
+#: scout-image-studio.php:192
+msgid "SEO-Guided AI Naming"
+msgstr ""
+
+#: scout-image-studio.php:167
+msgid "Sequential Bulk Naming"
+msgstr ""
+
+#: scout-image-studio.php:399
+msgid "Setup guide"
+msgstr ""
+
+#: scout-image-studio.php:302
+msgid "Showing %1$s–%2$s"
+msgstr ""
+
+#: scout-image-studio.php:232
+msgid "Source"
+msgstr ""
+
+#: scout-image-studio.php:176
+msgid "Start"
+msgstr ""
+
+#: scout-image-studio.php:394
+msgid "Test Connection"
+msgstr ""
+
+#: scout-image-studio.php:90
+msgid "Testing connection…"
+msgstr ""
+
+#: scout-image-studio.php:675
+msgid "The AI provider returned an error."
+msgstr ""
+
+#: scout-image-studio.php:684
+msgid "The AI response was incomplete (%s). Nothing was changed. Please retry."
+msgstr ""
+
+#: scout-image-studio.php:200
+msgid "The generated filename becomes the image URL after you review and rename it."
+msgstr ""
+
+#: scout-image-studio.php:907
+msgid "The original image file could not be found."
+msgstr ""
+
+#: scout-image-studio.php:920
+msgid "The proposed filename is empty after sanitization."
+msgstr ""
+
+#: scout-image-studio.php:928
+msgid "The proposed name is already the current filename."
+msgstr ""
+
+#: scout-image-studio.php:527
+msgid "The provider rejected the connection."
+msgstr ""
+
+#: scout-image-studio.php:1111
+msgid "The rename operation could not be found."
+msgstr ""
+
+#: scout-image-studio.php:902
+msgid "The selected item is not an image attachment."
+msgstr ""
+
+#: scout-image-studio.php:355
+msgid "Undo"
+msgstr ""
+
+#: scout-image-studio.php:1134
+msgid "Undo data is incomplete."
+msgstr ""
+
+#: scout-image-studio.php:427
+msgid "URLs synchronized"
+msgstr ""
+
+#: scout-image-studio.php:393
+msgid "Website context"
+msgstr ""
+
+#: scout-image-studio.php:939
+msgid "WordPress could not rename the original file. Check file permissions."
+msgstr ""
+
+#: scout-image-studio.php:100
+msgid "You do not have permission to rename media files."
+msgstr ""
+
+#: scout-image-studio.php:404
+msgid "Your key remains stored on your WordPress site and is sent only to the provider you select when you explicitly run an AI task."
+msgstr ""
+
+#: scout-image-studio.php:290
+msgid "← Previous"
+msgstr ""
