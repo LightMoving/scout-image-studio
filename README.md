@@ -1,7 +1,7 @@
 ![Scout Image Studio](assets/banner-1544x500.png)
 
 # Scout Image Studio
-![Version](https://img.shields.io/badge/version-2.2.17-blue)
+![Version](https://img.shields.io/badge/version-2.2.18-blue)
 ![WordPress](https://img.shields.io/badge/WordPress-7.0.2%2B-blue)
 ![License](https://img.shields.io/badge/license-GPL%20v2-green)
 
@@ -118,16 +118,12 @@ Only after an authorized administrator explicitly requests AI naming.
 Before running large operations, create a current database and uploads backup. Test the plugin on a small group of images first, especially on sites using custom page builders or plugins that store media URLs in proprietary formats.
 
 ## Changelog
+### 2.2.18
 
+Release version 2.2.18
 ### 2.2.17
 
 Change: Responsiveness & Compatibility
-### 2.2.16
-
-Publisher Payload: `0de15b9e82f784fa…`
-
-Release packaged and verified with WordPress Plugin Publisher.
-
 ### 2.2.15
 
 - Performance Upgrades
