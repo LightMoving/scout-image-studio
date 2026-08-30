@@ -4,7 +4,7 @@ Tags: media, images, rename, ai, seo
 Requires at least: 6.0
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.2.18
+Stable tag: 2.2.19
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -93,7 +93,11 @@ No. Manual naming and sequential bulk naming work without an AI provider or API 
 Only after an authorized administrator explicitly requests AI naming.
 
 == Changelog ==
+= 2.2.19 =
+* Update Icon Image
+
 = 2.2.18 =
+
 * Fix changelog on both readme’s
 
 = 2.2.17 =
