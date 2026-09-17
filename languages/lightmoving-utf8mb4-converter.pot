@@ -1,0 +1,230 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: LightMoving UTF8MB4 Converter 1.0.13
+"
+"Report-Msgid-Bugs-To: https://github.com/LightMoving/lightmoving-utf8mb4-converter\n"
+"POT-Creation-Date: 2026-05-15 00:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: lightmoving-utf8mb4-converter\n"
+
+#: lightmoving-utf8mb4-converter.php
+msgid "LightMoving UTF8MB4 Converter"
+msgstr ""
+
+#: lightmoving-utf8mb4-converter.php
+msgid "LightMoving UTF8MB4 Converter"
+msgstr ""
+
+#: lightmoving-utf8mb4-converter.php
+msgid "You do not have permission to access this page."
+msgstr ""
+
+#: lightmoving-utf8mb4-converter.php
+msgid "Conversion Completed Successfully!"
+msgstr ""
+
+#: lightmoving-utf8mb4-converter.php
+msgid "Your database and tables are now using utf8mb4 and are ready to support 4-byte characters, including emojis."
+msgstr ""
+
+#: lightmoving-utf8mb4-converter.php
+msgid "Scan and convert WordPress database tables to utf8mb4 so your site can safely support 4-byte Unicode characters, including emojis and expanded multilingual characters."
+msgstr ""
+
+#: lightmoving-utf8mb4-converter.php
+msgid "Database Status"
+msgstr ""
+
+#: lightmoving-utf8mb4-converter.php
+msgid "Review your current database charset, collation, and WordPress table status before converting."
+msgstr ""
+
+#: lightmoving-utf8mb4-converter.php
+msgid "Database"
+msgstr ""
+
+#: lightmoving-utf8mb4-converter.php
+msgid "Current Database Charset"
+msgstr ""
+
+#: lightmoving-utf8mb4-converter.php
+msgid "Current Database Collation"
+msgstr ""
+
+#: lightmoving-utf8mb4-converter.php
+msgid "Target Charset / Collation"
+msgstr ""
+
+#: lightmoving-utf8mb4-converter.php
+msgid "Server utf8mb4 Support"
+msgstr ""
+
+#: lightmoving-utf8mb4-converter.php
+msgid "Supported"
+msgstr ""
+
+#: lightmoving-utf8mb4-converter.php
+msgid "Not detected"
+msgstr ""
+
+#: lightmoving-utf8mb4-converter.php
+msgid "Tables Needing Conversion"
+msgstr ""
+
+#: lightmoving-utf8mb4-converter.php
+msgid "None detected"
+msgstr ""
+
+#: lightmoving-utf8mb4-converter.php
+msgid "WordPress Tables"
+msgstr ""
+
+#: lightmoving-utf8mb4-converter.php
+msgid "This tool scans tables using your current WordPress table prefix."
+msgstr ""
+
+#: lightmoving-utf8mb4-converter.php
+msgid "No WordPress tables were found for the current table prefix."
+msgstr ""
+
+#: lightmoving-utf8mb4-converter.php
+msgid "Table"
+msgstr ""
+
+#: lightmoving-utf8mb4-converter.php
+msgid "Engine"
+msgstr ""
+
+#: lightmoving-utf8mb4-converter.php
+msgid "Collation"
+msgstr ""
+
+#: lightmoving-utf8mb4-converter.php
+msgid "Status"
+msgstr ""
+
+#: lightmoving-utf8mb4-converter.php
+msgid "utf8mb4 ready"
+msgstr ""
+
+#: lightmoving-utf8mb4-converter.php
+msgid "Needs conversion"
+msgstr ""
+
+#: lightmoving-utf8mb4-converter.php
+msgid "Convert Database"
+msgstr ""
+
+#: lightmoving-utf8mb4-converter.php
+msgid "Run this only after making a complete database backup."
+msgstr ""
+
+#: lightmoving-utf8mb4-converter.php
+msgid "Backup required."
+msgstr ""
+
+#: lightmoving-utf8mb4-converter.php
+msgid " Converting database tables can lock tables temporarily and may take time on large sites. Make a full database backup before continuing."
+msgstr ""
+
+#: lightmoving-utf8mb4-converter.php
+msgid "This server does not appear to support utf8mb4 through WordPress database capabilities. Conversion is disabled."
+msgstr ""
+
+#: lightmoving-utf8mb4-converter.php
+msgid "Your WordPress tables and database default already appear to be utf8mb4 ready."
+msgstr ""
+
+#: lightmoving-utf8mb4-converter.php
+msgid "I confirm that I have created a complete database backup."
+msgstr ""
+
+#: lightmoving-utf8mb4-converter.php
+msgid "Type CONVERT to continue:"
+msgstr ""
+
+#: lightmoving-utf8mb4-converter.php
+msgid "Convert Database and WordPress Tables to utf8mb4"
+msgstr ""
+
+#: lightmoving-utf8mb4-converter.php
+msgid "What This Does"
+msgstr ""
+
+#: lightmoving-utf8mb4-converter.php
+msgid "This tool updates the database default and converts each WordPress table using your current table prefix."
+msgstr ""
+
+#: lightmoving-utf8mb4-converter.php
+msgid "Safety Notes"
+msgstr ""
+
+#: lightmoving-utf8mb4-converter.php
+msgid "No conversion runs automatically on activation."
+msgstr ""
+
+#: lightmoving-utf8mb4-converter.php
+msgid "Only administrators can access this tool."
+msgstr ""
+
+#: lightmoving-utf8mb4-converter.php
+msgid "Only tables using the current WordPress prefix are converted."
+msgstr ""
+
+#: lightmoving-utf8mb4-converter.php
+msgid "A manual confirmation is required before conversion."
+msgstr ""
+
+#: lightmoving-utf8mb4-converter.php
+msgid "Large tables may take longer depending on hosting resources."
+msgstr ""
+
+#: lightmoving-utf8mb4-converter.php
+msgid "You do not have permission to perform this action."
+msgstr ""
+
+#: lightmoving-utf8mb4-converter.php
+msgid "Security check failed. Please try again."
+msgstr ""
+
+#: lightmoving-utf8mb4-converter.php
+msgid "Conversion was not started. Please confirm your backup and type CONVERT exactly."
+msgstr ""
+
+#: lightmoving-utf8mb4-converter.php
+msgid "This server does not appear to support utf8mb4 through WordPress database capabilities."
+msgstr ""
+
+#: lightmoving-utf8mb4-converter.php
+msgid "Database default conversion failed: %s"
+msgstr ""
+
+#: lightmoving-utf8mb4-converter.php
+msgid "Database default charset/collation updated successfully."
+msgstr ""
+
+#: lightmoving-utf8mb4-converter.php
+msgid "Table %1$s failed: %2$s"
+msgstr ""
+
+#: lightmoving-utf8mb4-converter.php
+msgid "Converted table: %s"
+msgstr ""
+
+#: lightmoving-utf8mb4-converter.php
+msgid "Conversion Log"
+msgstr ""
+
+#: lightmoving-utf8mb4-converter.php
+msgid "The database conversion completed and the following actions were recorded:"
+msgstr ""
+
+#: lightmoving-utf8mb4-converter.php
+msgid "Unknown"
+msgstr ""
+
+#: lightmoving-utf8mb4-converter.php
+msgid "Tools"
+msgstr ""
