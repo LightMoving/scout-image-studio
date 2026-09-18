@@ -120,21 +120,21 @@ Before running large operations, create a current database and uploads backup. T
 ## Changelog
 ### 2.2.21
 
-Release version 2.2.21
-Updated for WordPress
+- Release version 2.2.21
+- Updated for WordPress
 ### 2.2.20
 
-Release version 2.2.20
+- Release version 2.2.20
 
 ### 2.2.19
 
-Release version 2.2.19
+- Release version 2.2.19
 ### 2.2.18
 
-Release version 2.2.18
+- Release version 2.2.18
 ### 2.2.17
 
-Change: Responsiveness & Compatibility
+- Change: Responsiveness & Compatibility
 ### 2.2.15
 
 - Performance Upgrades
