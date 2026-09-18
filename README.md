@@ -118,6 +118,9 @@ Only after an authorized administrator explicitly requests AI naming.
 Before running large operations, create a current database and uploads backup. Test the plugin on a small group of images first, especially on sites using custom page builders or plugins that store media URLs in proprietary formats.
 
 ## Changelog
+### 2.2.22
+ - Changing GitHub Workspace Version
+
 ### 2.2.21
 
 - Release version 2.2.21
